@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class LearnArrayList {
@@ -36,6 +37,20 @@ public class LearnArrayList {
 
         list.set(2,2000); // this method updates the element base on index
         System.out.println(list);
+
+        //looping
+        for(int i=0; i< list.size();i++){
+            System.out.println("The element is :"+list.get(i));
+        }
+        for(Integer element :list){
+            System.out.println("foreach element is :"+element);
+        }
+        Iterator<Integer> it= list.iterator();
+
+        while (it.hasNext()){
+            System.out.println("Iterator :"+it.next());
+        }
+
 
         System.out.println(list.contains(2000)); // this method shows the element is there in the list or not
 
