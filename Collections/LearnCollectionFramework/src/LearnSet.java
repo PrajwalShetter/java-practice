@@ -6,6 +6,7 @@ import java.util.TreeSet;
 public class LearnSet {
 
     public static void main(String[] args) {
+        // HashSet does not have any indexing
         //HashSet
         Set<Integer> set = new HashSet<>();
 
