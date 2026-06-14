@@ -9,7 +9,7 @@ public class FirstApiExample {
 
         try {
 
-            URL url = new URL("https://jsonplaceholder.typicode.com/users");
+            URL url = new URL("https://jsonplaceholder.typicode.com/xyz");
 
             HttpURLConnection connection =
                     (HttpURLConnection) url.openConnection();
