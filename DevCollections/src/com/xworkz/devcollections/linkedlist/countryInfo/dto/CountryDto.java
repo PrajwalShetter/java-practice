@@ -14,7 +14,7 @@ public class CountryDto {
         private String countryName;
         private  String primeMinister;
         private Continent continent;
-        private long pollution;
+        private long population;
         private double areaSqft;
         private int noOfState;
         private String countryCode;
