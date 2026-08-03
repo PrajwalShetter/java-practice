@@ -7,9 +7,9 @@ public class PatientCollectionRunner {
 
     public static void main(String[] args) {
 
+        Patient patient3 = new Patient(03,"laxmi","jaya nagar",Gender.FEMALE,BloodGroup.BOMBYBLOODGROPU,18);
         Patient patient1 = new Patient(01,"suraj","RR nagar",Gender.MALE,BloodGroup.APOSITIVE,22);
         Patient patient2 = new Patient(02,"Kiran","rajaji nagar",Gender.MALE,BloodGroup.BNEGATIVE,24);
-        Patient patient3 = new Patient(03,"laxmi","jaya nagar",Gender.FEMALE,BloodGroup.BOMBYBLOODGROPU,18);
         Patient patient4 = new Patient(04,"prakruthi","BTM",Gender.FEMALE,BloodGroup.ONEGATIVE,28);
 
         List<Patient> patients = new ArrayList<>();
