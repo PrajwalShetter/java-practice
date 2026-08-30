@@ -15,7 +15,7 @@ public class CountryServiceImpl implements CountryService {
 
         if(country != null){
             if(country.getCountryId() >0 && country.getCountryName() != null && country.getCountryCode() != null
-            && country.getContinent() != null && country.getPollution() >0 && country.getAreaSqft() >0 &&
+            && country.getContinent() != null && country.getPopulation() >0 && country.getAreaSqft() >0 &&
             country.getNoOfState() >0 && country.getPrimeMinister() != null){
                 dao.add(country);
             }
