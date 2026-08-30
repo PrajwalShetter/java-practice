@@ -87,7 +87,7 @@ public class CountryDaoImpl implements CountryDao {
         if(countryCode != null){
             for(CountryDto country : countries){
                 if(country.getCountryCode().equals(countryCode)){
-                     country.setPollution(120L);
+                     country.setPopulation(120L);
                      isPopulationUpdated=true;
                 }
             }
